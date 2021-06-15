@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head> <!--header of the webpage-->
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> <!--added text/css-->
     <title>website</title>
 </head>
 
-<body>
-    <div class="header">
+<body> <!--semantic HTML elements Nav bar-->
+    <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -23,10 +23,11 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
+    </nav>
+
+    <div class="main"></div>  <!--changed hero to main-->
     <div class="content">
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization">  <!--added class ID-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -48,7 +49,9 @@
             </p>
         </div>
     </div>
-    <div class="benefits">
+
+    <!--aside bar stuff-->
+    <aside class="benefits"> <!--aside stuff-->
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -70,13 +73,14 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside>
+
+    <footer class="footer"> <!--change to footer from div-->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
