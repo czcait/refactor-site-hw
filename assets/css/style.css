@@ -8,49 +8,27 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
-}
-
-.header main {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header main ul {
-    list-style-type: none;
-}
-
-.header main ul li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
-/*change to main from hero*/
+/*change to people from hero and moved it up to load faster*/
 .people {
     height: 800px;
     width: 100%;
@@ -58,6 +36,27 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+header main {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header main ul {
+    list-style-type: none;
+}
+
+header main ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -87,11 +86,6 @@ p {
     background-color: #2589bd;
 }
 
-/*aside, {
-    margin-bottom: 32px;
-    color: #ffffff;   
-}
-*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -149,7 +143,9 @@ p {
     color: #ffffff;
 }
 
-/*.online-reputation-management {
+
+/* a repeat from above
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -171,7 +167,8 @@ p {
     max-height: 200px;
 }
 
-/*.online-reputation-management img {
+/* a repeat from above
+.online-reputation-management img {
     max-height: 200px;
 }
 
@@ -183,7 +180,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*
+/* repeats from the above. 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
